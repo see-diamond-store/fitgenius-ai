@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="FITGENIUS AI - Your Personal AI Fitness and Nutrition Advisor">
+<meta name="theme-color" content="#101311">
+<title>FITGENIUS AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="modal"></div>
+<div id="toast" aria-live="polite"></div>
+<noscript>FITGENIUS AI needs JavaScript to run.</noscript>
+
+<!-- Load order matters: these are plain scripts that share one scope, so they run without a build step. -->
+<script src="config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/components.js"></script>
+<script src="js/services/auth.service.js"></script>
+<script src="js/services/ai.service.js"></script>
+<script src="js/views/landing-auth.js"></script>
+<script src="js/views/dashboard.js"></script>
+<script src="js/views/coach.js"></script>
+<script src="js/views/workouts.js"></script>
+<script src="js/views/diet.js"></script>
+<script src="js/views/calc.js"></script>
+<script src="js/views/progress.js"></script>
+<script src="js/views/water.js"></script>
+<script src="js/views/library.js"></script>
+<script src="js/views/profile.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
